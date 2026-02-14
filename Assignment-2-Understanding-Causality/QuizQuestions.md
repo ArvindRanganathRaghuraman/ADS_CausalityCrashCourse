@@ -3,9 +3,12 @@
 Question 1: What is the fundamental problem of causal inference?
 
 A) We cannot observe multiple treatments simultaneously
+
 B) We cannot observe the same unit under both treatment and control conditions at the same
 time
+
 C) We cannot randomize treatment assignment in observational studies
+
 D) We cannot measure confounding variables accurately
 
 Correct Answer: B
@@ -21,8 +24,11 @@ Question 2: In a Directed Acyclic Graph (DAG), what does it mean when variable Z
 confounder of the relationship between treatment X and outcome Y?
 
 A) Z is caused by both X and Y
+
 B) Z causes both X and Y
+
 C) Z is on the causal path from X to Y
+
 D) Z blocks all paths from X to Y
 
 **Correct Answer:** B
@@ -36,8 +42,11 @@ confounder itself.
 Question 3: What happens when you condition on a collider in causal analysis?
 
 A) It removes confounding bias
+
 B) It opens a backdoor path and introduces bias
+
 C) It blocks all causal paths
+
 D) It has no effect on the causal estimate
 
 Correct Answer: B
@@ -51,8 +60,11 @@ has a specific harmful effect by creating spurious associations.
 ## Question 4: Which of the following best describes propensity score matching?
 
 A) Matching units with similar outcome values
+
 B) Matching treated and control units with similar probabilities of receiving treatment
+
 C) Matching units with identical confounding variables
+
 D) Matching units randomly from treatment and control groups
 
 **Correct Answer:** B
@@ -68,8 +80,11 @@ doesn't address confounding.
 ## inference?
 
 A) The instrument is correlated with the outcome only through the treatment
+
 B) The instrument is randomly assigned
+
 C) The instrument is a strong predictor of the outcome
+
 D) The instrument eliminates all confounding
 
 **Correct Answer:** A
@@ -84,8 +99,11 @@ the exclusion restriction. Option D overstates what IV achieves.
 ## Question 6: In the context of causal inference, what does "exchangeability" mean?
 
 A) Treatment and control groups can be swapped without changing results
+
 B) The potential outcomes are independent of treatment assignment
+
 C) Confounders can be exchanged for instrumental variables
+
 D) Treatment effects are the same across all individuals
 
 **Correct Answer:** B
@@ -99,8 +117,12 @@ nonsensical. Option D describes treatment effect homogeneity, not exchangeabilit
 ## Question 7: Which statement about the backdoor criterion is correct?
 
 A) It identifies variables that should NOT be controlled for
-B) It provides sufficient conditions for identifying causal effects by blocking non-causal paths
+
+B) It provides sufficient conditions for identifying causal effects by blocking 
+non-causal paths
+
 C) It requires controlling for all variables in the DAG
+
 D) It only applies to randomized experiments
 
 **Correct Answer:** B
@@ -115,8 +137,11 @@ criterion is specifically for observational studies.
 ## Question 8: What is a mediator in causal analysis?
 
 A) A variable that confounds the treatment-outcome relationship
+
 B) A variable that lies on the causal path between treatment and outcome
+
 C) A variable that is caused by both treatment and outcome
+
 D) A variable that modifies the treatment effect
 
 **Correct Answer:** B
@@ -129,8 +154,11 @@ collider. Option D describes an effect modifier or moderator, not a mediator.
 ## Question 9: Why is randomization considered the gold standard for causal inference?
 
 A) It ensures perfect balance on all measured confounders
+
 B) It ensures balance on both measured and unmeasured confounders in expectation
+
 C) It eliminates all bias in causal estimates
+
 D) It allows for the largest possible sample sizes
 
 **Correct Answer:** B
@@ -145,9 +173,12 @@ why randomization helps with causal inference.
 ## Question 10: What is the Average Treatment Effect (ATE)?
 
 A) The effect of treatment on the treated individuals only
+
 B) The average difference in potential outcomes between treatment and control for the entire
 population
+
 C) The effect of treatment averaged across different time periods
+
 D) The weighted average of treatment effects across subgroups
 
 **Correct Answer:** B
@@ -163,9 +194,12 @@ estimands but not specifically ATE.
  ## assumption?
 
 A) Treatment assignment is random
+
 B) Parallel trends: treated and control groups would have followed similar trends without
 treatment
+
 C) There is no spillover between groups
+
 D) All confounders are measured
 
 **Correct Answer:** B
@@ -180,8 +214,11 @@ confounders.
 ## Question 12: What is selection bias in observational causal studies?
 
 A) Bias from selecting the wrong statistical model
+
 B) Bias from selecting the wrong outcome variable
+
 C) Bias arising when treatment assignment is related to potential outcomes
+
 D) Bias from selecting a non-representative sample
 
 **Correct Answer:** C
@@ -196,8 +233,11 @@ assignment.
 ## Question 13: What does the Stable Unit Treatment Value Assumption (SUTVA) require?
 
 A) Treatment effects remain stable over time
+
 B) No interference between units and no hidden variations of treatment
+
 C) The sample is stable and representative
+
 D) Treatment values are measured without error
 
 **Correct Answer:** B
@@ -210,8 +250,11 @@ stability, not SUTVA. Option C relates to sampling. Option D relates to measurem
 ## Question 14: In regression discontinuity design (RDD), causal identification relies on:
 
 A) Units just above and below the threshold being comparable
+
 B) Random assignment of the running variable
+
 C) Controlling for all confounders
+
 D) Having a large discontinuity in the outcome
 
 **Correct Answer:** A
@@ -226,8 +269,11 @@ identification strategy.
 ## Question 15: When should you include post-treatment variables as controls in a causal analysis?
 
 A) Always, to reduce bias
+
 B) Never, as they may be affected by treatment and introduce bias
+
 C) Only if they're strongly correlated with the outcome
+
 D) Only if they're measured before the outcome
 
 **Correct Answer:** B
