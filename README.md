@@ -107,8 +107,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Author
-[Your Name]
+Arvind Ranganath Raghuraman
 
-## Acknowledgments
-- INFO 7390: Crash Course in Causality
-- [Any datasets, libraries, or resources you used]
+
