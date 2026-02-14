@@ -24,6 +24,7 @@ pandas
 numpy
 matplotlib
 seaborn
+scikit-learn
 ```
 
 ### Installation
